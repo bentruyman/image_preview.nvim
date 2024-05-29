@@ -23,11 +23,15 @@ function M.IsImage(url)
 
     if extension == '.bmp' then
         return true
+    elseif extension == '.gif' then
+        return true
     elseif extension == '.jpg' or extension == '.jpeg' then
         return true
     elseif extension == '.png' then
         return true
-    elseif extension == '.gif' then
+    elseif extension == '.svg' then
+        return true
+    elseif extension == '.webp' then
         return true
     end
 

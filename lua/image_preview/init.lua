@@ -25,6 +25,8 @@ function M.IsImage(url)
         return true
     elseif extension == '.gif' then
         return true
+    elseif extension == '.ico' then
+        return true
     elseif extension == '.jpg' or extension == '.jpeg' then
         return true
     elseif extension == '.png' then
